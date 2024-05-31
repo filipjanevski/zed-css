@@ -1,0 +1,15 @@
+id = "css"
+name = "CSS"
+description = "CSS language support"
+version = "0.0.1"
+schema_version = 1
+authors = ["Filip Janevski <filip@janevski.dev>"]
+repository = "https://github.com/filipjanevski/css.zed"
+
+[grammars.css]
+repository = "https://github.com/tree-sitter/tree-sitter-css"
+commit = "2e868a75a518531656b493cba36ef60d8c61cc89"
+
+[language_servers.css-language-server]
+name = "CSS Language Server"
+language = "CSS"
